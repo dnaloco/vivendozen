@@ -7,11 +7,12 @@
  * @package r2gozen
  */
 
-if (!is_active_sidebar('sidebar-1')) {
+if (!is_active_sidebar('footer-1')) {
 	return;
 }
 ?>
 
-<aside id="secondary" class="widget-area" role="complementary">
-	<?php dynamic_sidebar('sidebar-1');?>
+<aside id="footer-widget-area" class="widget-area footer-widgets" role="complementary">
+	<?php dynamic_sidebar('footer-1');?>
 </aside><!-- #secondary -->
+

@@ -1,6 +1,6 @@
 /*!
 Theme Name: r2gozen
-Theme URI: http://underscores.me/
+Theme URI: http://github.com/dnaloco/vivendozen
 Author: Arthur S. Costa
 Author URI: http://www.r2go.com.br
 Description: Tema em wordpress para o blog vivendo zen
@@ -86,14 +86,14 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.io/normalize.css/
 @import "modules/clearings";
 
 /*--------------------------------------------------------------
-# Widgets
---------------------------------------------------------------*/
-@import "site/secondary/widgets";
-
-/*--------------------------------------------------------------
 # Content
 --------------------------------------------------------------*/
 @import "site/site";
+
+/*--------------------------------------------------------------
+# Widgets
+--------------------------------------------------------------*/
+@import "site/secondary/widgets";
 
 /*--------------------------------------------------------------
 # Infinite scroll
@@ -104,3 +104,4 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.io/normalize.css/
 # Media
 --------------------------------------------------------------*/
 @import "media/media";
+

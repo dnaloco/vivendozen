@@ -1,0 +1,53 @@
+.site-content {
+	padding: 1em;
+
+	@include mq( 'tablet', min ) {
+		padding: 2em;
+	}
+
+	max-width: $size__max-width;
+	margin: 0 auto;
+}
+
+@include mq('tablet', min) {
+	.single {
+		&.has-sidebar {
+			.site-content {
+				.hentry {
+					display: flex;
+					flex-wrap: wrap;
+					justify-content: space-between;
+				}
+				.entry-header {
+				    width: 100%;
+				    flex: 1 0 100%;
+				}
+
+				.post-content {
+				    width: 60%;
+				}
+
+				.widget-area {
+				    width: 30%;
+				}
+			}
+		}
+
+		&.no-sidebar {
+			.site-content {
+				.post-content__wrap {
+					display: flex;
+					justify-content: space-between;
+				}
+
+				.entry-meta {
+					width: 20%;
+				}
+
+				.post-content__body {
+					width: 70%;
+				}
+			}
+		}
+	}
+}

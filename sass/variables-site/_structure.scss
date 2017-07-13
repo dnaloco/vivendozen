@@ -1,2 +1,21 @@
+$size__max-width: 1080px;
+$size__ratio-small: 30%;
+$size__ratio-large: 60%;
+
 $size__site-main: 100%;
 $size__site-sidebar: 25%;
+
+$query__small: 600px;
+$query__medium: 900px;
+
+$breakpoints: (
+    "phone":        400px,
+    "phone-wide":   480px,
+    "phablet":      560px,
+    "tablet-small": 640px,
+    "tablet":       768px,
+    "tablet-wide":  1024px,
+    "desktop":      1248px,
+    "desktop-wide": 1440px
+);
+
